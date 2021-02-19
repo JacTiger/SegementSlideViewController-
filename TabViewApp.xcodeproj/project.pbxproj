@@ -3,19 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D3654E944E4FA28B2C120CB /* Pods_TabViewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF145CD2166FCA08D51F4A30 /* Pods_TabViewApp.framework */; };
+		BA5DD95725E076E9006EF37A /* NewsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DD95625E076E9006EF37A /* NewsItems.swift */; };
+		BA5DD95A25E07E61006EF37A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DD95925E07E61006EF37A /* WebViewController.swift */; };
+		BA5DD96125E08445006EF37A /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DD96025E08445006EF37A /* Page2ViewController.swift */; };
+		BA5DD96425E084A7006EF37A /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DD96325E084A7006EF37A /* Page3ViewController.swift */; };
+		BA5DD96725E084D5006EF37A /* Page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DD96625E084D5006EF37A /* Page4ViewController.swift */; };
+		BA5DD96A25E0850F006EF37A /* Page5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DD96925E0850F006EF37A /* Page5ViewController.swift */; };
+		BA5DD96D25E0852E006EF37A /* Page6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5DD96C25E0852E006EF37A /* Page6ViewController.swift */; };
+		BA6A1FDA25E0006C00C039C8 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A1FD925E0006C00C039C8 /* Page1ViewController.swift */; };
 		BA926CCA25DFF56F00920CD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA926CC925DFF56F00920CD4 /* AppDelegate.swift */; };
 		BA926CCC25DFF56F00920CD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA926CCB25DFF56F00920CD4 /* SceneDelegate.swift */; };
 		BA926CCE25DFF56F00920CD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA926CCD25DFF56F00920CD4 /* ViewController.swift */; };
 		BA926CD125DFF56F00920CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA926CCF25DFF56F00920CD4 /* Main.storyboard */; };
 		BA926CD325DFF57000920CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA926CD225DFF57000920CD4 /* Assets.xcassets */; };
 		BA926CD625DFF57000920CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA926CD425DFF57000920CD4 /* LaunchScreen.storyboard */; };
+		BA9D8F7325DFF7BF003D5C76 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D8F7225DFF7BF003D5C76 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4579FD138CC38A2BFA666326 /* Pods-TabViewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabViewApp.release.xcconfig"; path = "Target Support Files/Pods-TabViewApp/Pods-TabViewApp.release.xcconfig"; sourceTree = "<group>"; };
+		BA5DD95625E076E9006EF37A /* NewsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItems.swift; sourceTree = "<group>"; };
+		BA5DD95925E07E61006EF37A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		BA5DD96025E08445006EF37A /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		BA5DD96325E084A7006EF37A /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+		BA5DD96625E084D5006EF37A /* Page4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4ViewController.swift; sourceTree = "<group>"; };
+		BA5DD96925E0850F006EF37A /* Page5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5ViewController.swift; sourceTree = "<group>"; };
+		BA5DD96C25E0852E006EF37A /* Page6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page6ViewController.swift; sourceTree = "<group>"; };
+		BA6A1FD925E0006C00C039C8 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
 		BA926CC625DFF56F00920CD4 /* TabViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA926CC925DFF56F00920CD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA926CCB25DFF56F00920CD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,9 @@
 		BA926CD225DFF57000920CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA926CD525DFF57000920CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA926CD725DFF57000920CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9D8F7225DFF7BF003D5C76 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E609D99A628B4E117C87B7E2 /* Pods-TabViewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabViewApp.debug.xcconfig"; path = "Target Support Files/Pods-TabViewApp/Pods-TabViewApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FF145CD2166FCA08D51F4A30 /* Pods_TabViewApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabViewApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D3654E944E4FA28B2C120CB /* Pods_TabViewApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		835977F110F1061B48CD0DA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF145CD2166FCA08D51F4A30 /* Pods_TabViewApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA926CBD25DFF56F00920CD4 = {
 			isa = PBXGroup;
 			children = (
 				BA926CC825DFF56F00920CD4 /* TabViewApp */,
 				BA926CC725DFF56F00920CD4 /* Products */,
+				EC80CE774AEB83B78E7C0458 /* Pods */,
+				835977F110F1061B48CD0DA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,57 @@
 		BA926CC825DFF56F00920CD4 /* TabViewApp */ = {
 			isa = PBXGroup;
 			children = (
-				BA926CC925DFF56F00920CD4 /* AppDelegate.swift */,
-				BA926CCB25DFF56F00920CD4 /* SceneDelegate.swift */,
-				BA926CCD25DFF56F00920CD4 /* ViewController.swift */,
-				BA926CCF25DFF56F00920CD4 /* Main.storyboard */,
-				BA926CD225DFF57000920CD4 /* Assets.xcassets */,
-				BA926CD425DFF57000920CD4 /* LaunchScreen.storyboard */,
+				BA926CE125DFF59400920CD4 /* Model */,
+				BA926CE025DFF58D00920CD4 /* View */,
+				BA926CDF25DFF57E00920CD4 /* Controller */,
 				BA926CD725DFF57000920CD4 /* Info.plist */,
 			);
 			path = TabViewApp;
+			sourceTree = "<group>";
+		};
+		BA926CDF25DFF57E00920CD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA926CC925DFF56F00920CD4 /* AppDelegate.swift */,
+				BA926CCB25DFF56F00920CD4 /* SceneDelegate.swift */,
+				BA926CCD25DFF56F00920CD4 /* ViewController.swift */,
+				BA9D8F7225DFF7BF003D5C76 /* BaseViewController.swift */,
+				BA6A1FD925E0006C00C039C8 /* Page1ViewController.swift */,
+				BA5DD95925E07E61006EF37A /* WebViewController.swift */,
+				BA5DD96025E08445006EF37A /* Page2ViewController.swift */,
+				BA5DD96325E084A7006EF37A /* Page3ViewController.swift */,
+				BA5DD96625E084D5006EF37A /* Page4ViewController.swift */,
+				BA5DD96925E0850F006EF37A /* Page5ViewController.swift */,
+				BA5DD96C25E0852E006EF37A /* Page6ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA926CE025DFF58D00920CD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA926CCF25DFF56F00920CD4 /* Main.storyboard */,
+				BA926CD225DFF57000920CD4 /* Assets.xcassets */,
+				BA926CD425DFF57000920CD4 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA926CE125DFF59400920CD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA5DD95625E076E9006EF37A /* NewsItems.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC80CE774AEB83B78E7C0458 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E609D99A628B4E117C87B7E2 /* Pods-TabViewApp.debug.xcconfig */,
+				4579FD138CC38A2BFA666326 /* Pods-TabViewApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA926CDA25DFF57000920CD4 /* Build configuration list for PBXNativeTarget "TabViewApp" */;
 			buildPhases = (
+				53E053AA7E927AD539A96050 /* [CP] Check Pods Manifest.lock */,
 				BA926CC225DFF56F00920CD4 /* Sources */,
 				BA926CC325DFF56F00920CD4 /* Frameworks */,
 				BA926CC425DFF56F00920CD4 /* Resources */,
+				B87F7108A75EE24C575849C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +209,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53E053AA7E927AD539A96050 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabViewApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B87F7108A75EE24C575849C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabViewApp/Pods-TabViewApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabViewApp/Pods-TabViewApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabViewApp/Pods-TabViewApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA926CC225DFF56F00920CD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA926CCE25DFF56F00920CD4 /* ViewController.swift in Sources */,
+				BA6A1FDA25E0006C00C039C8 /* Page1ViewController.swift in Sources */,
+				BA5DD96725E084D5006EF37A /* Page4ViewController.swift in Sources */,
+				BA5DD96125E08445006EF37A /* Page2ViewController.swift in Sources */,
+				BA9D8F7325DFF7BF003D5C76 /* BaseViewController.swift in Sources */,
+				BA5DD96425E084A7006EF37A /* Page3ViewController.swift in Sources */,
+				BA5DD96D25E0852E006EF37A /* Page6ViewController.swift in Sources */,
+				BA5DD95725E076E9006EF37A /* NewsItems.swift in Sources */,
+				BA5DD95A25E07E61006EF37A /* WebViewController.swift in Sources */,
+				BA5DD96A25E0850F006EF37A /* Page5ViewController.swift in Sources */,
 				BA926CCA25DFF56F00920CD4 /* AppDelegate.swift in Sources */,
 				BA926CCC25DFF56F00920CD4 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +411,7 @@
 		};
 		BA926CDB25DFF57000920CD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E609D99A628B4E117C87B7E2 /* Pods-TabViewApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +425,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tora.TabViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BA926CDC25DFF57000920CD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4579FD138CC38A2BFA666326 /* Pods-TabViewApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tora.TabViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
