@@ -19,26 +19,27 @@ class BaseViewController: SegementSlideDefaultViewController {
     
     }
     
+//    Headerに画像を設定する場合はsegementSlideHeaderView()を使う
     override func segementSlideHeaderView() -> UIView? {
-        
+
         let headerView = UIImageView()
         headerView.isUserInteractionEnabled = true
         headerView.contentMode = .scaleAspectFill
         headerView.image = UIImage(named: "header")
         headerView.translatesAutoresizingMaskIntoConstraints = false
-        
+
         let headerHeight:CGFloat
-        
+
         if #available(iOS 11, *){
-            
+
             headerHeight = view.bounds.height/4 + view.safeAreaInsets.top
         }else{
-            
+
             headerHeight = view.bounds.height/4 + topLayoutGuide.length
         }
-        
+
         headerView.heightAnchor.constraint(equalToConstant: headerHeight).isActive = true
-        
+
         return headerView
     }
     
